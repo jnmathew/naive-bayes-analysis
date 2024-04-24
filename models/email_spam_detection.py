@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
 # note that vectorizers are not used for email dataset
-# from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
+# from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB, BernoulliNB, ComplementNB
 from sklearn.metrics import classification_report, confusion_matrix
 import seaborn as sns
